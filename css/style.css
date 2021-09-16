@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  background-color: #f8edeb;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+header {
+  max-width: 760px;
+  margin: 0 auto;
+  border: 1px double;
+  border-color: #070008;
+  padding: 1rem;
+  background-color: #f3d9dc;
+  font-family: "Aclonica", cursive;
+  font-size: 25px;
+}
+
+footer {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 12px;
+  text-align: center;
+  border: 1px double;
+  border-color: #070008;
+  padding: 1rem;
+  background-color: #f3d9dc;
+}
+
+header img {
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #999;
+}
