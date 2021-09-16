@@ -19,14 +19,27 @@ main {
 }
 
 header {
-  max-width: 760px;
-  margin: 0 auto;
-  border: 1px double;
+  dispaly: flex;
+  align-items: center;
+  justify-content: center;
   border-color: #070008;
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: #f3d9dc;
   font-family: "Aclonica", cursive;
   font-size: 25px;
+}
+
+header img {
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px #999;
+}
+
+header img {
+  float: right;
+}
+
+header img {
+  width: 200px;
 }
 
 footer {
@@ -38,9 +51,4 @@ footer {
   border-color: #070008;
   padding: 1rem;
   background-color: #f3d9dc;
-}
-
-header img {
-  border: 1px solid #ccc;
-  box-shadow: 5px 5px 5px #999;
 }
