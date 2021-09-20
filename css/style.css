@@ -3,8 +3,11 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
   background-color: #f8edeb;
+}
+
+h1 {
+  font-size: 14px;
 }
 
 h2,
@@ -33,10 +36,6 @@ header {
 header img {
   border: 1px solid #ccc;
   box-shadow: 5px 5px 5px #999;
-}
-
-header img {
-  float: right;
 }
 
 header img {
