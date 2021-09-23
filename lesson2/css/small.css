@@ -31,7 +31,7 @@ footer {
 }
 
 main {
-	max-width: 43;
+	max-width: 43em;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
