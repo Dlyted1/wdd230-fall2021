@@ -10,7 +10,7 @@ h1 {
 
 
 header {
-  max-width: 43em;
+  max-width: 61em;
   margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -27,7 +27,7 @@ header {
   }
 
 footer {
-  max-width: 43em;
+  max-width: 61em;
   margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -43,7 +43,7 @@ footer {
 }
 
 main {
-	max-width: 43em;
+	max-width: 61em;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
