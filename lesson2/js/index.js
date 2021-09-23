@@ -1,2 +1,1 @@
-document.querySelector("#theyear").textContent = new Date().getFullYear();
-document.querySelector("#lastmod").textContent = document.lastModified;
+document.getElementById("lastMod").innerHTML = `Last Modified :   ${document.lastModified}`;
