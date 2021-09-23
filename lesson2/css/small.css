@@ -1,6 +1,6 @@
 body {
-  font size: 30px;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -8,53 +8,50 @@ h1 {
   font-weight: lighter;
 }
 
-
 header {
   max-width: 61em;
   margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
   padding-bottom: 25px;
   text-align: center;
   background-color: #123c69;
-  font-family: 'Pacifico', cursive;
-  color: #eee2dc; 
-  }
- .name {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: lighter;
-  }
+  font-family: "Pacifico", cursive;
+  color: #eee2dc;
+}
+.name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
 
 footer {
   max-width: 61em;
   margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
   text-align: center;
   padding-bottom: 10px;
   background-color: #123c69;
-  color: #eee2dc
+  color: #eee2dc;
 }
-
 
 .company {
   font-size: 1rem;
 }
 
 main {
-	max-width: 61em;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+  max-width: 61em;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 0.8rem;
 }
 main section {
   margin: 0.5rem;
-	border: 1px solid black;
-	padding: 0 1rem;
-	background-color: #bab2b5;
-  
+  border: 1px solid black;
+  padding: 0 1rem;
+  background-color: #bab2b5;
 }
 main section picture {
   display: block;
@@ -66,5 +63,5 @@ main section picture img {
 }
 .para {
   font-size: 15px;
-  color: #123c69
+  color: #123c69;
 }
