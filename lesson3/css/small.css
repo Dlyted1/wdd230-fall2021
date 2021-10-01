@@ -97,16 +97,15 @@ main {
 }
 colors {
   width: 100%;
-  min-width: 350px;
   margin: auto;
   text-align: center;
-  padding-bottom: 10%;
+  padding: 30%;
 }
 .colors th {
   background-color: #999;
 }
 .colors td {
-  width: 20%;
+  width: 2em;
   height: 3em;
 }
 
@@ -125,6 +124,7 @@ colors {
 .accent3 {
   background-color: var(--accent3-color);
 }
+
 
 footer {
   flex: 0 1 100%;
