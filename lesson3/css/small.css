@@ -90,12 +90,12 @@ nav a:hover {
 .active {
 	color: #e8f7ee;
 
-main {
-  padding-left: 25px;
-	font-size: 16px;
+  main {
+    display: grid;
+    margin: auto;
   }
-
-
+  
+  
 .persona-one {
   margin-left: 25px;
   padding: 20px;
@@ -138,7 +138,7 @@ colors {
 footer {
   background-color: #C9D6EA;
   flex: 0 1 100%;
-	height: 2rem;
+	
 }
 
 
