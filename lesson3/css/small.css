@@ -13,25 +13,28 @@
 body {
   margin: 0 auto;
   font-size: 16px;
-  max-width: 960px;
   background-color: #b8c4bb;
+  font-family: "Roboto", sans-serif;
 }
 
 header,
 footer {
-  background-color: #c9d6ea;
+  background-color: #C9D6EA;
   display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+    
 }
 
 header,
 nav,
 main,
 footer {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 767px;
+	margin: 0 auto;
 }
 
 h1 {
@@ -52,9 +55,7 @@ h5 {
   color: rgb(214, 207, 197);
   font-family: "Roboto", sans-serif; 
 }
-nav ul {
-  display: flex;
-}
+
 nav ul li {
   flex: 1 1 100%;
 }
@@ -69,9 +70,9 @@ nav a {
 
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 nav ul li a {
   display: block;
@@ -85,16 +86,27 @@ nav a:hover {
   color: #536878;
 }
 
+.active {
+	color: #e8f7ee;
+
 main {
-  padding-left: 10px;
-  padding-right: 10px;
+  display: grid;
+	grid-template-columns: 1fr;
+	font-size: 16px;
 }
+
+main article {
+	margin: 1rem;
+	padding: 1 1rem;	
+}
+
 .persona-one {
   margin-left: 25px;
 }
 .persona-two {
   margin-left: 25px;
 }
+
 colors {
   width: 100%;
   margin: auto;
@@ -127,8 +139,9 @@ colors {
 
 
 footer {
+  background-color: #C9D6EA;
   flex: 0 1 100%;
-  height: 6rem;
-  color: #3c362a;
-  margin-top: 40px;
+	height: 2rem;
 }
+
+
