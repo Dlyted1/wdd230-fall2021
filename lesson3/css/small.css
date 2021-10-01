@@ -1,20 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
-:root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #b8c4bb;
-  --secondary-color: #c9d6ea;
-  --accent1-color: #3c362a;
-  --accent2-color: #663f46;
-  --accent3-color: #e8f7ee;
-}
 
 body {
   margin: 0 auto;
   font-size: 16px;
   background-color: #b8c4bb;
   font-family: "Roboto", sans-serif;
+ 
 }
 
 header,
@@ -84,60 +77,35 @@ nav ul li a {
 }
 nav a:hover {
   background-color: #bbb;
-  color: #536878;
+  color: #663f46;
 }
 
 .active {
 	color: #e8f7ee;
 
   main {
-    display: grid;
-    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 560px;
   }
   
   
 .persona-one {
   margin-left: 25px;
-  padding: 20px;
+  
 }
 .persona-two {
+  margin-left: 25px;
   
 }
 
-colors {
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  padding: 30%;
-}
-.colors th {
-  background-color: #999;
-}
-.colors td {
-  width: 2em;
-  height: 3em;
-}
-
-.primary {
-  background-color: var(--primary-color);
-}
-.secondary {
-  background-color: var(--secondary-color);
-}
-.accent1 {
-  background-color: var(--accent1-color);
-}
-.accent2 {
-  background-color: var(--accent2-color);
-}
-.accent3 {
-  background-color: var(--accent3-color);
-}
 
 
 footer {
-  background-color: #C9D6EA;
   flex: 0 1 100%;
+  background-color: #C9D6EA;
+  height: 6rem;
+  margin-top: 40px;
 	
 }
 
