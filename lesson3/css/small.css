@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #b8c4bb;
@@ -10,9 +13,8 @@
 body {
   margin: 0 auto;
   font-size: 16px;
-  font-family: courier, Verdana, sans-serif;
   max-width: 960px;
-  color: #b8c4bb;
+  background-color: #b8c4bb;
 }
 
 header,
@@ -33,21 +35,22 @@ footer {
 }
 
 h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: font-family: "Ubuntu Condensed", sans-serif;
   font-size: 2rem;
   color: #3c362a;
 }
 h2 {
   color: #3c362a;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: font-family: "Ubuntu Condensed", sans-serif;
 }
 h3,
 h4 {
   color: #3c362a;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Roboto", sans-serif; 
 }
 h5 {
   color: rgb(214, 207, 197);
+  font-family: "Roboto", sans-serif; 
 }
 nav ul {
   display: flex;
