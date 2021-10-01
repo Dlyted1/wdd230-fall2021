@@ -23,6 +23,17 @@ img {
   height: auto;
 }
 
+#myHeader {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 25px;
+}
+
+#myPara {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+   
 header,
 footer {
   background-color: #C9D6EA;
@@ -31,8 +42,7 @@ footer {
 	align-items: center;
 	justify-content: center;
   padding: 10px;
-	
-}
+	}
   
 
 header,
@@ -51,7 +61,7 @@ h1 {
 }
 h2 {
   color: #3c362a;
-  font-family: font-family: "Ubuntu Condensed", sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 h3,
 h4 {
@@ -96,7 +106,7 @@ nav a:hover {
 .active {
 	color: #e8f7ee;
 
-   
+
 footer {
   flex: 0 1 100%;
 	height: 2rem;
