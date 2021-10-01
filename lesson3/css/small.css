@@ -11,9 +11,16 @@ body {
 }
 
 main {
+  
+	
   padding-left: 20px;
   padding-right: 20px;
   max-width: 560px;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 header,
@@ -23,6 +30,7 @@ footer {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
+  padding: 10px;
 	
 }
   
@@ -31,7 +39,7 @@ header,
 nav,
 main,
 footer {
-  max-width: 1200px;
+  max-width: 767px;
   margin: 0 auto;
 	
 }
