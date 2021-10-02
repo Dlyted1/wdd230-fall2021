@@ -12,9 +12,9 @@ body {
 
 main {
   
-	
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 100px;
   max-width: 560px;
 }
 
@@ -49,7 +49,7 @@ header,
 nav,
 main,
 footer {
-  max-width: 767px;
+  max-width: 1200px;
   margin: 0 auto;
 	
 }
@@ -106,11 +106,15 @@ nav a:hover {
 .active {
 	color: #e8f7ee;
 
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   }
 
-footer {
+/* footer {
   flex: 0 1 100%;
-	height: 2rem;
-  background-color: #C9D6EA;
+	background-color: #C9D6EA; */
 	
 }
 
