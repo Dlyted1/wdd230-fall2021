@@ -11,6 +11,7 @@
   main {
     grid-template-columns: 1fr 1fr;
   }
+
   img {
     display: block;
     width: 100%;
