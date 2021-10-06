@@ -102,6 +102,13 @@ nav ul.hide {
   display: none;
 }
 
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 main {
   margin-left: 10px;
   margin-right: 10px;
@@ -114,11 +121,4 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }

@@ -2,7 +2,7 @@ function toggleMenu() {
     
   document.getElementById("primaryNav").classList.toggle("hide");
 }
-/* select the element to manipulate (output to)
+/* select the element to manipulate (output to) 
 const datefield = document.querySelector("date"); */
 
 /*
@@ -10,13 +10,14 @@ const datefield = document.querySelector("date"); */
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 now
-);  */
-
+); 
+*/
 
 /*
-// long, medium, short options ... try them
+// long, medium, short options ... try them 
 
 datefield.textContent = fulldate;
-
 */
+
+
 
