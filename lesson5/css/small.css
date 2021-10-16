@@ -14,6 +14,15 @@
   line-height: 1.1em;
 }
 
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+    background-color: burlywood;
+    font-weight: 500;
+}
+
 body {
   background-color: #b8c4bb;
   font-size: 14px;
@@ -32,14 +41,7 @@ h4 {
   font-family: "Roboto", sans-serif;
 }
 
-#banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: .5em;
-    background-color: burlywood;
-    font-weight: 500;
-}
+
 
 header {
   background-color: #c9d6ea;
@@ -165,6 +167,11 @@ img {            /* use for very large image scale to correct size */
    
 }
 
+.article {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 
 .grid { 
 	display: grid;
@@ -272,7 +279,7 @@ footer {
   justify-content: center;
 }
 
-@media only screen and (min-width: 620px) {
+@media only screen and (min-width: 220px) {
     header img {
         width: 100%;
     }
