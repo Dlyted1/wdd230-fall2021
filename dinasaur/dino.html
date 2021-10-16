@@ -7,7 +7,7 @@
   </head>
   <body>
       <section>
-        <img src="dinosaur.png" alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth.">
+        <img src="imagesdino/dinosaur.png" alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth.">
         <p>Here we will add a link to the <a href="https://www.mozilla.org/">Mozilla homepage</a></p>
       </section>
       <script>
@@ -37,9 +37,16 @@
         const linkPara = document.querySelector('p');
         linkPara.appendChild(text);
 
+        // There may be times when you want to move nodes, or delete them from the DOM altogether. This is perfectly possible. linkPara is a reference to the one and only copy of that paragraph. If you wanted to make a copy and add that as well, you'd need to use Node.cloneNode() instead.
 
+       // If we wanted to move the paragraph with the link inside it to the bottom of the section //
+       sect.appendChild(linkPara);
 
+       // Removing a node is pretty simple as well, at least when you have a reference to the node to be removed and its parent. In our current case, we just use Node.removeChild(), like this //
+       sect.removeChild(linkPara);
 
+       // When you want to remove a node based only on a reference to itself, which is fairly common, you can use Element.remove():   not supported in older browsers //
+       linkPara.remove();
 
       </script>
   </body>
