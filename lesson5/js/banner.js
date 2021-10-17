@@ -5,10 +5,11 @@ function bannerClose () {
     const banner = document.querySelector("banner")
 
     if (today == 5) {
-        banner = display: block;
+        display: block;
     }
 
     else {
-        banner = display: none;
+        display: none;
     }
 }
+bannerClose ();

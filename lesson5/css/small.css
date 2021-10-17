@@ -15,8 +15,7 @@
 }
 
 .banner {
-    display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: center;
     padding: .5em;
     background-color: burlywood;
