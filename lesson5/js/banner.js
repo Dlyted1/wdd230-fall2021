@@ -1,14 +1,14 @@
-function bannerDay() {
-
-    const d = new Date();
-    const today = d.getDay();
-    const Friday = document.querySelector("banner");
+function bannerClose () {
+   
+    const now = new Date();
+    const today = now.getDay;
+    const banner = document.querySelector("banner")
 
     if (today == 5) {
-        banner.small.display = 'block';
+        banner = display: block;
+    }
 
-    } else {
-        banner.small.display = 'none';
+    else {
+        banner = display: none;
     }
 }
-function bannerDay()
