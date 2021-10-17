@@ -173,8 +173,8 @@ img {            /* use for very large image scale to correct size */
 
 
 .grid { 
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
     margin: 10px auto;
     border: 1px solid #000;
     padding: 15px;
@@ -182,13 +182,13 @@ img {            /* use for very large image scale to correct size */
 
 }
 .grid-col {
-	border: 1px solid #333;
-	text-align: center;
+  border: 1px solid #333;
+  text-align: center;
 }
 .grid-col:hover {
-	opacity: 0.75;
-	background-color: #C9D6EA;
-	color: #3c362a;
+  opacity: 0.75;
+  background-color: #C9D6EA;
+  color: #3c362a;
 }
 
 
@@ -224,7 +224,7 @@ img {            /* use for very large image scale to correct size */
 
 .article-img {
     float: right;
-    box-shadow: 0 0 50px rgb(55, 56, 58);
+    
     margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
