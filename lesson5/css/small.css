@@ -14,7 +14,8 @@
   line-height: 1.1em;
 }
 
-.banner {
+#banner {
+    
     text-align: center;
     justify-content: center;
     padding: .5em;
