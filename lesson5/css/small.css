@@ -224,12 +224,11 @@ img {            /* use for very large image scale to correct size */
 
 .article-img {
     float: right;
-    
     margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 5px;
 }
 .map-responsive {
     overflow:hidden;
